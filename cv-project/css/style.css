@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: #C0C0C0;
+}
+
+.contact-us-page {
+    display: flex;
+    width: 1100px;
+    height: 570px;
+    border-radius: 35px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blue-side {
+    width: 400px;
+    height: 570px;
+    border-radius: 35px 0px 0px 35px; 
+    background-color: blue;
+    padding-left: 30px;
+    color: white;
+}
+
+.get-in-touch {
+    margin-top: 40px;
+    padding-left: 25px;
+}
+.get-in-touch h1 {
+    font-size: 18px;
+    padding-bottom: 10px ;
+}
+.get-in-touch p {
+    font-size: 14px; 
+}
+
+.chet-to-us {
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+.chet-to-us h1 {
+    font-size: 18px;
+}
+
+.chet-to-us p {
+    font-size: 14px;
+    margin-left: 32px;
+    margin-top: 3px;
+}
+.icons {
+    color: whitesmoke;
+    margin-right: 8px;
+    font-size: 20px;
+
+}
+
+.office {
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+.office h1 {
+    font-size: 18px;
+}
+
+.office p {
+    font-size: 14px;
+    margin-left: 32px;
+    margin-top: 3px;
+}
+
+.Phones {
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+.Phones h1 {
+    font-size: 18px;
+}
+
+.Phones p {
+    font-size: 14px;
+    margin-left: 32px;
+    margin-top: 3px;
+}
+
+.social-icons {
+    font-size: 25px;
+    margin: 28px;
+    margin-top: 120px;
+    display: flex;
+    gap: 25px;
+    text-align: justify;   
+}
+
+.social-icons a {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.dots {
+    font-size: 10px;
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+    color: gray;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+.dot1 {
+    color: orangered;
+}
+
+.dot2 {
+    color: yellow;
+}
+
+.dot3 {
+    color: green;
+}
+
+
+/* contact info css */ 
+
+.contact-info {
+    width: 700px;
+    height: 570px;
+    border-radius: 0px 35px 35px 0px;
+}
+
+.contact {
+    width: 700px;
+    height: 570px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.heading h1 {
+    font-size: 22px;
+}
+
+.heading p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.name {
+    margin-top: 30px;
+}
+
+.name h1 {
+    font-size: 15px;
+}
+
+.name input {
+    width: 350px;
+    height: 25px;
+    margin-top: 6px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.Email {
+    margin-top: 10px;
+}
+.Email h1 {
+    font-size: 15px;
+}
+
+.Email input {
+    width: 350px;
+    height: 25px;
+    margin-top: 6px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+
+.Mobile-number {
+    margin-top: 10px;
+}
+.Mobile-number h1 {
+    font-size: 15px;
+}
+
+.Mobile-number input {
+    width: 350px;
+    height: 25px;
+    margin-top: 6px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+
+.help-btn {
+    margin-top: 10px;
+}
+.help-btn h1 {
+    font-size: 15px;
+}   
+
+.help-btn input {
+    width: 350px;
+    height: 90px;
+    margin-top: 6px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid gray;
+    padding-left: 10px; 
+}
+
+.submit-btn button {
+    width: 360px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: blue;
+    border: transparent;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-right: 10px;
+    border-radius: 10px;
+}
